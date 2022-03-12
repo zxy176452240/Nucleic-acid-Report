@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/m.hesuan.css" />
+    <link rel="stylesheet" href="font/iconfont.css">
+    <title>结果查询</title>
+    <script src="js/flexible.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <div class="top">
+        <p>本查询服务由上海卫生健康委员会提供</p>
+    </div>
+    <div class="box clearfix">
+        <ul>
+            <li class="clearfix">
+                <i>姓名</i>
+                <p id="output"></p>
+            </li>
+            <li class="clearfix">
+                <i>证件类型</i>
+                <p>身份证</p>
+            </li>
+            <li class="clearfix">
+                <i>证件号码</i>
+                <p id="ID1"></p>
+            </li>
+            <li class="clearfix">
+                <i>样本编号</i>
+                <p>3156867494</p>
+            </li>
+            <li class="clearfix">
+                <i>采样时间</i>
+                <p id="time1"></p>
+            </li>
+            <li class="clearfix">
+                <i>检测机构</i>
+                <p>上海千麦米乐医学检验所</p>
+            </li>
+            <li class="clearfix">
+                <i>检测时间</i>
+                <p id="time2"></p>
+            </li>
+            <li class="clearfix">
+                <i>检测项目</i>
+                <p>核酸</p>
+            </li>
+            <li class="jieguo clearfix">
+                <i>检测结果</i>
+                <p>ORF1a/b阴性，N基因阴性</p>
+            </li>
+        </ul>
+    </div>
+    <div class="more">查看更多</div>
+    <div class="box box_hide clearfix">
+        <ul>
+            <li class="clearfix">
+                <i>姓名</i>
+                <p id="output1"></p>
+            </li>
+            <li class="clearfix">
+                <i>证件类型</i>
+                <p>身份证</p>
+            </li>
+            <li class="clearfix">
+                <i>证件号码</i>
+                <p id="ID2"></p>
+            </li>
+            <li class="clearfix">
+                <i>样本编号</i>
+                <p>3042867494</p>
+            </li>
+            <li class="clearfix">
+                <i>采样时间</i>
+                <p>2022-03-05 12:00:56</p>
+            </li>
+            <li class="clearfix">
+                <i>检测机构</i>
+                <p>上海千麦米乐医学检验所</p>
+            </li>
+            <li class="clearfix">
+                <i>检测时间</i>
+                <p>2022-03-05</p>
+            </li>
+            <li class="clearfix">
+                <i>检测项目</i>
+                <p>核酸</p>
+            </li>
+            <li class="jieguo clearfix">
+                <i>检测结果</i>
+                <p>ORF1a/b阴性，N基因阴性</p>
+            </li>
+        </ul>
+    </div>
+    <div class="box box_hide clearfix">
+        <ul>
+            <li class="clearfix">
+                <i>姓名</i>
+                <p id="output2"></p>
+            </li>
+            <li class="clearfix">
+                <i>证件类型</i>
+                <p>身份证</p>
+            </li>
+            <li class="clearfix">
+                <i>证件号码</i>
+                <p id="ID3"></p>
+            </li>
+            <li class="clearfix">
+                <i>样本编号</i>
+                <p>2863485752</p>
+            </li>
+            <li class="clearfix">
+                <i>采样时间</i>
+                <p>2022-02-08 15:12:34</p>
+            </li>
+            <li class="clearfix">
+                <i>检测机构</i>
+                <p>上海市闵行区中心医院</p>
+            </li>
+            <li class="clearfix">
+                <i>检测时间</i>
+                <p>2022-02-09</p>
+            </li>
+            <li class="clearfix">
+                <i>检测项目</i>
+                <p>核酸</p>
+            </li>
+            <li class="jieguo clearfix">
+                <i>检测结果</i>
+                <p>ORF1a/b阴性，N基因阴性</p>
+            </li>
+        </ul>
+    </div>
+    <div class="box box_hide clearfix">
+        <ul>
+            <li class="clearfix">
+                <i>姓名</i>
+                <p id="output3"></p>
+            </li>
+            <li class="clearfix">
+                <i>证件类型</i>
+                <p>身份证</p>
+            </li>
+            <li class="clearfix">
+                <i>证件号码</i>
+                <p id="ID4"></p>
+            </li>
+            <li class="clearfix">
+                <i>样本编号</i>
+                <p>2265949341</p>
+            </li>
+            <li class="clearfix">
+                <i>采样时间</i>
+                <p>2022-01-27 10:24:47</p>
+            </li>
+            <li class="clearfix">
+                <i>检测机构</i>
+                <p>上海市闵行区中心医院</p>
+            </li>
+            <li class="clearfix">
+                <i>检测时间</i>
+                <p>2022-01-27</p>
+            </li>
+            <li class="clearfix">
+                <i>检测项目</i>
+                <p>核酸</p>
+            </li>
+            <li class="jieguo clearfix">
+                <i>检测结果</i>
+                <p>ORF1a/b阴性，N基因阴性</p>
+            </li>
+        </ul>
+    </div>
+    <div class="no_more">没有更多了</div>
+</body>
+<script src="js/index2.js"></script>
+
+</html>

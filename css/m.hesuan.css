@@ -1,0 +1,145 @@
+body {
+    max-width: 540px;
+    min-width: 320px;
+    width: 10rem;
+    margin: 0 auto;
+    font-family: FZHei-B01S;
+    color: black;
+    background: #F3F3F4;
+    overflow-x: hidden;
+}
+
+
+/* 如果屏幕小于320px 按照750px设计稿设置 页面恢复到750px （防止页面坍塌） */
+
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 52px!important;
+    }
+}
+
+
+/* 如果屏幕超过750px 那按照750设计稿设置 不让页面超过750px */
+
+@media screen and (min-width: 540px) {
+    html {
+        font-size: 52px!important;
+    }
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.top {
+    width: 100%;
+    height: 1.2rem;
+    background-color: #FEF6BF;
+    border: 2px solid #f8b960;
+    text-align: center;
+}
+
+.top p {
+    font-size: .3733rem;
+    line-height: 1.1rem;
+    color: #faac3e;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.box {
+    width: 88%;
+    height: 10.6rem;
+    background: url(../images/hesuan.jpg) no-repeat;
+    background-size: 100%;
+    margin: .343rem auto;
+    padding: 1.3333rem 30px 0 20px;
+}
+
+.box ul {
+    float: left;
+    width: 100%;
+}
+
+.box ul li {
+    /* width: ; */
+    font-size: .3733rem;
+    margin: .465rem auto;
+}
+
+.box i {
+    float: left;
+    font-style: normal;
+    color: #999999;
+}
+
+.show {
+    display: none;
+}
+
+.xin {
+    display: none;
+}
+
+.box li p {
+    float: right;
+    margin: 0 auto;
+}
+
+.box li p span {
+    float: left;
+    vertical-align: middle;
+}
+
+.box li p span:first-of-type,
+.box li p span:nth-of-type(2) {
+    font-size: .4267rem;
+    margin-right: 3px;
+}
+
+.box li p span:nth-of-type(3),
+.box li p span:nth-of-type(4) {
+    font-size: .358rem;
+    margin-top: 1px;
+    margin-right: -20px;
+}
+
+.box ul li:last-child {
+    padding-top: .5rem;
+    border-top: 1px dashed #d3d3d3;
+}
+
+.box ul li:last-child i {
+    color: #000;
+}
+
+.more {
+    font-size: .3467rem;
+    text-align: center;
+    color: #38b9e0;
+}
+
+.box_hide {
+    display: none;
+}
+
+.no_more {
+    display: none;
+    font-size: .3467rem;
+    text-align: center;
+    color: #c7c7c7;
+    margin-bottom: 25px;
+}
+
+.box li #output:first-letter,
+.box li #output1:first-letter,
+.box li #output2:first-letter,
+.box li #output3:first-letter {
+    visibility: hidden;
+}
